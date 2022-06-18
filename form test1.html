@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Form Demo</h1>
+
+    <form action="/tacos">
+        <p>
+            <label for="username">Enter a Username:</label>
+            <input id="username" type="text" placeholder="username">
+        </p>
+        <p>
+            <label for="password">Enter a Password</label>
+            <input id="password" type="password" placeholder="password">
+        </p>
+        <p>
+            <label for="color">Enter a Color:</label>
+            <input type="color" id="color">
+        </p>
+        <p>
+            <label for="number">Number</label>
+            <input type="number" placeholder="enter a number" id="number">
+        </p>
+        <button type="button">Submit</button>
+
+    </form>
+
+    <h3>Search</h3>
+    <form action="http://www.reddit.com/search">
+        <input type="text" name="q">
+        <button>Search Reddit</button>
+
+    </form>
+
+    <h3>Checkbox</h3>
+    <form action="/egg">
+        <input type="checkbox" name="option1" id="checkbox1" checked>
+        <label for="checkbox1">checkbox1</label>
+        <input type="checkbox" name="option2" id="checkbox2" checked>
+        <label for="checkbox2">checkbox2</label>
+        <input type="checkbox" name="option3" id="checkbox3" checked>
+        <label for="checkbox3">checkbox3</label>
+        <button>Submit</button>
+
+        <div>
+            <label for="one">one</label>
+            <input type="radio" name="option" id="one" value="one">
+        </div>
+        <div>
+            <label for="two">two</label>
+            <input type="radio" name="option" id="two" value="two">
+        </div>
+        <div>
+            <label for="three">three</label>
+            <input type="radio" name="option" id="three" value="three">
+        </div>
+        <button>Submit</button>
+
+        <div>
+            <h3>select</h3>
+            <label for="select"></label>
+            <select name="pet">
+                <option value="">Please choose one</option>
+                <option value="dog">Dog</option>
+                <option value="cat">Cat</option>
+                <option value="fish">Fish</option>
+            </select>
+            <button>Submit</button>
+        </div>
+    </form>
+
+
+
+</body>
+
+</html>
